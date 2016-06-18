@@ -13,6 +13,8 @@
 @interface Start : UIViewController<UIPageViewControllerDelegate, UIPageViewControllerDataSource>
 
 @property (strong, nonatomic) UIPageViewController *pageViewController;
+@property (strong, nonatomic) IBOutlet UIButton *btnSkip;
+- (IBAction)btnSkipPressed:(id)sender;
 
 @end
 

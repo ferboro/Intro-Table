@@ -11,6 +11,7 @@
 NSString *stDummy;
 
 NSMutableArray  *maIntroTitles;
+NSMutableArray  *maIntroImgs;
 
 @implementation Declarations
 

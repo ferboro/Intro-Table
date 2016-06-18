@@ -28,6 +28,9 @@
 //-------------------------------------------------------------------------------
 - (void)initController {
     maIntroTitles   = [[NSMutableArray alloc] initWithObjects: @"Este verano", @"Conoce a los Avengers", @"Directamente desde tu iPhone", nil];
+    
+    maIntroImgs     = [[NSMutableArray alloc] initWithObjects: @"summer.png", @"avengers.png", @"iphone.png", nil];
+    
     [self createPageViews];
 }
 /**********************************************************************************************/
@@ -63,9 +66,8 @@
         return nil;
     }
     // Create a new view controller and pass suitable data.
-    Intro *pageIntro        = [self.storyboard instantiateViewControllerWithIdentifier:@"Intro"];
-    pageIntro.lblIntro      = maIntroTitles[index];
-    pageIntro.iPageIndex    = index;
+    Intro *pageIntro            = [self.storyboard instantiateViewControllerWithIdentifier:@"Intro"];
+    pageIntro.iPageIndex        = index;
     
     return pageIntro;
 }
@@ -103,4 +105,6 @@
 }
 
 
+- (IBAction)btnSkipPressed:(id)sender {
+}
 @end
