@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "cellAvengers.h"
 
 @interface Home : UIViewController
+@property (strong, nonatomic) IBOutlet UITableView *tblAvengers;
 
 @end

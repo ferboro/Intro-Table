@@ -95,8 +95,23 @@
                     <view key="view" contentMode="scaleToFill" id="sbe-QJ-99S">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="uh3-ee-cTf" userLabel="tblAvengers">
+                                <rect key="frame" x="0.0" y="34" width="320" height="534"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="separatorColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="f6D-V9-5fb" id="t5v-tP-awk"/>
+                                    <outlet property="delegate" destination="f6D-V9-5fb" id="6I0-xj-7wa"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" red="0.20784313979999999" green="0.70980393890000004" blue="0.70588237050000002" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="tblAvengers" destination="uh3-ee-cTf" id="4DX-gL-Rao"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JZh-m8-74q" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
