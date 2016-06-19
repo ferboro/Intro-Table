@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C16FFC8D1D1743EE00E0B096 /* avengers.png in Resources */ = {isa = PBXBuildFile; fileRef = C16FFC841D1743EE00E0B096 /* avengers.png */; };
+		C16FFC8E1D1743EE00E0B096 /* blackwidow.png in Resources */ = {isa = PBXBuildFile; fileRef = C16FFC851D1743EE00E0B096 /* blackwidow.png */; };
+		C16FFC8F1D1743EE00E0B096 /* captain.png in Resources */ = {isa = PBXBuildFile; fileRef = C16FFC861D1743EE00E0B096 /* captain.png */; };
+		C16FFC901D1743EE00E0B096 /* hulk.png in Resources */ = {isa = PBXBuildFile; fileRef = C16FFC871D1743EE00E0B096 /* hulk.png */; };
+		C16FFC911D1743EE00E0B096 /* iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = C16FFC881D1743EE00E0B096 /* iphone.png */; };
+		C16FFC921D1743EE00E0B096 /* ironman.png in Resources */ = {isa = PBXBuildFile; fileRef = C16FFC891D1743EE00E0B096 /* ironman.png */; };
+		C16FFC931D1743EE00E0B096 /* spiderman.png in Resources */ = {isa = PBXBuildFile; fileRef = C16FFC8A1D1743EE00E0B096 /* spiderman.png */; };
+		C16FFC941D1743EE00E0B096 /* summer.png in Resources */ = {isa = PBXBuildFile; fileRef = C16FFC8B1D1743EE00E0B096 /* summer.png */; };
+		C16FFC951D1743EE00E0B096 /* thor.png in Resources */ = {isa = PBXBuildFile; fileRef = C16FFC8C1D1743EE00E0B096 /* thor.png */; };
 		D126E9531D14BBDF00DC7BB4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D126E9521D14BBDF00DC7BB4 /* main.m */; };
 		D126E9561D14BBDF00DC7BB4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D126E9551D14BBDF00DC7BB4 /* AppDelegate.m */; };
 		D126E9591D14BBDF00DC7BB4 /* Start.m in Sources */ = {isa = PBXBuildFile; fileRef = D126E9581D14BBDF00DC7BB4 /* Start.m */; };
@@ -16,22 +25,21 @@
 		D126E9641D14BBDF00DC7BB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D126E9621D14BBDF00DC7BB4 /* LaunchScreen.storyboard */; };
 		D126E96F1D14C28A00DC7BB4 /* Intro.m in Sources */ = {isa = PBXBuildFile; fileRef = D126E96E1D14C28A00DC7BB4 /* Intro.m */; };
 		D126E9721D14C39800DC7BB4 /* Declarations.m in Sources */ = {isa = PBXBuildFile; fileRef = D126E9711D14C39800DC7BB4 /* Declarations.m */; };
-		D126E9771D14CE0D00DC7BB4 /* avengers.png in Resources */ = {isa = PBXBuildFile; fileRef = D126E9741D14CE0D00DC7BB4 /* avengers.png */; };
-		D126E9781D14CE0D00DC7BB4 /* iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D126E9751D14CE0D00DC7BB4 /* iphone.png */; };
-		D126E9791D14CE0D00DC7BB4 /* summer.png in Resources */ = {isa = PBXBuildFile; fileRef = D126E9761D14CE0D00DC7BB4 /* summer.png */; };
 		D126E97C1D14D31D00DC7BB4 /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = D126E97B1D14D31D00DC7BB4 /* Home.m */; };
 		D126E9811D14D76000DC7BB4 /* cellAvengers.m in Sources */ = {isa = PBXBuildFile; fileRef = D126E97F1D14D76000DC7BB4 /* cellAvengers.m */; };
 		D126E9821D14D76000DC7BB4 /* cellAvengers.xib in Resources */ = {isa = PBXBuildFile; fileRef = D126E9801D14D76000DC7BB4 /* cellAvengers.xib */; };
-		D126E98A1D14DD1400DC7BB4 /* blackwidow.png in Resources */ = {isa = PBXBuildFile; fileRef = D126E9831D14DD1400DC7BB4 /* blackwidow.png */; };
-		D126E98B1D14DD1400DC7BB4 /* captain.png in Resources */ = {isa = PBXBuildFile; fileRef = D126E9841D14DD1400DC7BB4 /* captain.png */; };
-		D126E98C1D14DD1400DC7BB4 /* hulk.png in Resources */ = {isa = PBXBuildFile; fileRef = D126E9851D14DD1400DC7BB4 /* hulk.png */; };
-		D126E98D1D14DD1400DC7BB4 /* ironman.png in Resources */ = {isa = PBXBuildFile; fileRef = D126E9861D14DD1400DC7BB4 /* ironman.png */; };
-		D126E98E1D14DD1400DC7BB4 /* ironman.png.ico in Resources */ = {isa = PBXBuildFile; fileRef = D126E9871D14DD1400DC7BB4 /* ironman.png.ico */; };
-		D126E98F1D14DD1400DC7BB4 /* spiderman.png in Resources */ = {isa = PBXBuildFile; fileRef = D126E9881D14DD1400DC7BB4 /* spiderman.png */; };
-		D126E9901D14DD1400DC7BB4 /* thor.png in Resources */ = {isa = PBXBuildFile; fileRef = D126E9891D14DD1400DC7BB4 /* thor.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C16FFC841D1743EE00E0B096 /* avengers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avengers.png; sourceTree = "<group>"; };
+		C16FFC851D1743EE00E0B096 /* blackwidow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackwidow.png; sourceTree = "<group>"; };
+		C16FFC861D1743EE00E0B096 /* captain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = captain.png; sourceTree = "<group>"; };
+		C16FFC871D1743EE00E0B096 /* hulk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hulk.png; sourceTree = "<group>"; };
+		C16FFC881D1743EE00E0B096 /* iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphone.png; sourceTree = "<group>"; };
+		C16FFC891D1743EE00E0B096 /* ironman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ironman.png; sourceTree = "<group>"; };
+		C16FFC8A1D1743EE00E0B096 /* spiderman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spiderman.png; sourceTree = "<group>"; };
+		C16FFC8B1D1743EE00E0B096 /* summer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = summer.png; sourceTree = "<group>"; };
+		C16FFC8C1D1743EE00E0B096 /* thor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thor.png; sourceTree = "<group>"; };
 		D126E94E1D14BBDF00DC7BB4 /* Intro Table.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Intro Table.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D126E9521D14BBDF00DC7BB4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D126E9541D14BBDF00DC7BB4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -47,21 +55,11 @@
 		D126E96E1D14C28A00DC7BB4 /* Intro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Intro.m; sourceTree = "<group>"; };
 		D126E9701D14C39800DC7BB4 /* Declarations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Declarations.h; sourceTree = "<group>"; };
 		D126E9711D14C39800DC7BB4 /* Declarations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Declarations.m; sourceTree = "<group>"; };
-		D126E9741D14CE0D00DC7BB4 /* avengers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avengers.png; sourceTree = "<group>"; };
-		D126E9751D14CE0D00DC7BB4 /* iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphone.png; sourceTree = "<group>"; };
-		D126E9761D14CE0D00DC7BB4 /* summer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = summer.png; sourceTree = "<group>"; };
 		D126E97A1D14D31D00DC7BB4 /* Home.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Home.h; sourceTree = "<group>"; };
 		D126E97B1D14D31D00DC7BB4 /* Home.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Home.m; sourceTree = "<group>"; };
 		D126E97E1D14D76000DC7BB4 /* cellAvengers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellAvengers.h; sourceTree = "<group>"; };
 		D126E97F1D14D76000DC7BB4 /* cellAvengers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cellAvengers.m; sourceTree = "<group>"; };
 		D126E9801D14D76000DC7BB4 /* cellAvengers.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cellAvengers.xib; sourceTree = "<group>"; };
-		D126E9831D14DD1400DC7BB4 /* blackwidow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackwidow.png; sourceTree = "<group>"; };
-		D126E9841D14DD1400DC7BB4 /* captain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = captain.png; sourceTree = "<group>"; };
-		D126E9851D14DD1400DC7BB4 /* hulk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hulk.png; sourceTree = "<group>"; };
-		D126E9861D14DD1400DC7BB4 /* ironman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ironman.png; sourceTree = "<group>"; };
-		D126E9871D14DD1400DC7BB4 /* ironman.png.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = ironman.png.ico; sourceTree = "<group>"; };
-		D126E9881D14DD1400DC7BB4 /* spiderman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spiderman.png; sourceTree = "<group>"; };
-		D126E9891D14DD1400DC7BB4 /* thor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thor.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +73,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C16FFC831D1743EE00E0B096 /* imgs */ = {
+			isa = PBXGroup;
+			children = (
+				C16FFC841D1743EE00E0B096 /* avengers.png */,
+				C16FFC851D1743EE00E0B096 /* blackwidow.png */,
+				C16FFC861D1743EE00E0B096 /* captain.png */,
+				C16FFC871D1743EE00E0B096 /* hulk.png */,
+				C16FFC881D1743EE00E0B096 /* iphone.png */,
+				C16FFC891D1743EE00E0B096 /* ironman.png */,
+				C16FFC8A1D1743EE00E0B096 /* spiderman.png */,
+				C16FFC8B1D1743EE00E0B096 /* summer.png */,
+				C16FFC8C1D1743EE00E0B096 /* thor.png */,
+			);
+			path = imgs;
+			sourceTree = "<group>";
+		};
 		D126E9451D14BBDF00DC7BB4 = {
 			isa = PBXGroup;
 			children = (
@@ -94,10 +108,10 @@
 		D126E9501D14BBDF00DC7BB4 /* Intro Table */ = {
 			isa = PBXGroup;
 			children = (
+				C16FFC831D1743EE00E0B096 /* imgs */,
 				D126E96C1D14BCB200DC7BB4 /* Main */,
 				D126E96B1D14BCA400DC7BB4 /* Controllers */,
 				D126E97D1D14D72500DC7BB4 /* Cells */,
-				D126E9731D14CE0D00DC7BB4 /* imgs */,
 				D126E95A1D14BBDF00DC7BB4 /* Main.storyboard */,
 				D126E9601D14BBDF00DC7BB4 /* Assets.xcassets */,
 				D126E9621D14BBDF00DC7BB4 /* LaunchScreen.storyboard */,
@@ -138,23 +152,6 @@
 				D126E9711D14C39800DC7BB4 /* Declarations.m */,
 			);
 			name = Main;
-			sourceTree = "<group>";
-		};
-		D126E9731D14CE0D00DC7BB4 /* imgs */ = {
-			isa = PBXGroup;
-			children = (
-				D126E9831D14DD1400DC7BB4 /* blackwidow.png */,
-				D126E9841D14DD1400DC7BB4 /* captain.png */,
-				D126E9851D14DD1400DC7BB4 /* hulk.png */,
-				D126E9861D14DD1400DC7BB4 /* ironman.png */,
-				D126E9871D14DD1400DC7BB4 /* ironman.png.ico */,
-				D126E9881D14DD1400DC7BB4 /* spiderman.png */,
-				D126E9891D14DD1400DC7BB4 /* thor.png */,
-				D126E9741D14CE0D00DC7BB4 /* avengers.png */,
-				D126E9751D14CE0D00DC7BB4 /* iphone.png */,
-				D126E9761D14CE0D00DC7BB4 /* summer.png */,
-			);
-			path = imgs;
 			sourceTree = "<group>";
 		};
 		D126E97D1D14D72500DC7BB4 /* Cells */ = {
@@ -224,20 +221,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D126E98A1D14DD1400DC7BB4 /* blackwidow.png in Resources */,
-				D126E98C1D14DD1400DC7BB4 /* hulk.png in Resources */,
-				D126E98F1D14DD1400DC7BB4 /* spiderman.png in Resources */,
-				D126E9791D14CE0D00DC7BB4 /* summer.png in Resources */,
-				D126E9901D14DD1400DC7BB4 /* thor.png in Resources */,
-				D126E98E1D14DD1400DC7BB4 /* ironman.png.ico in Resources */,
-				D126E98D1D14DD1400DC7BB4 /* ironman.png in Resources */,
 				D126E9641D14BBDF00DC7BB4 /* LaunchScreen.storyboard in Resources */,
+				C16FFC911D1743EE00E0B096 /* iphone.png in Resources */,
+				C16FFC921D1743EE00E0B096 /* ironman.png in Resources */,
 				D126E9821D14D76000DC7BB4 /* cellAvengers.xib in Resources */,
+				C16FFC8D1D1743EE00E0B096 /* avengers.png in Resources */,
 				D126E9611D14BBDF00DC7BB4 /* Assets.xcassets in Resources */,
-				D126E9781D14CE0D00DC7BB4 /* iphone.png in Resources */,
-				D126E9771D14CE0D00DC7BB4 /* avengers.png in Resources */,
-				D126E98B1D14DD1400DC7BB4 /* captain.png in Resources */,
+				C16FFC941D1743EE00E0B096 /* summer.png in Resources */,
+				C16FFC8F1D1743EE00E0B096 /* captain.png in Resources */,
+				C16FFC951D1743EE00E0B096 /* thor.png in Resources */,
+				C16FFC931D1743EE00E0B096 /* spiderman.png in Resources */,
+				C16FFC8E1D1743EE00E0B096 /* blackwidow.png in Resources */,
 				D126E95C1D14BBDF00DC7BB4 /* Main.storyboard in Resources */,
+				C16FFC901D1743EE00E0B096 /* hulk.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,6 +400,7 @@
 				D126E96A1D14BBDF00DC7BB4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
